@@ -152,23 +152,23 @@ nav a {
  .carousel-caption p {
     font-size: 1.3rem;
     text-transform: lowercase;
+    padding-bottom: 1rem;
 }
 /* BOOTSTRAP HERO BUTTON */
 .hero-btn {
-    padding: 13px 33px; 
+    padding: 15px 32px; 
     font-size: 16px;
     font-weight: bold;
-    text-transform: uppercase;
     background-color: transparent;
     border: 2.5px solid white;
     border-radius: 50px;
 }
 .hero-btn:hover {
-    background-color: rgb(170, 115, 83);
     cursor: pointer;
-    border: 2.5px solid rgb(170, 115, 83);
+    border: 2.5px solid white;
     transition: .4s;
-    transform: scale(0.95);
+    background-color:#ffffff38;
+    
 }
 .hero-btn  {
     text-decoration: none;
@@ -184,12 +184,14 @@ nav a {
     font-size: 42px;
     font-weight: bold;
     padding-top: 4rem;
+    padding-bottom: 2rem;
 }
 .about-content {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    padding-top: 2rem;
+    padding-top: 4rem;
+    text-align: center;
 }
 .about-image {
     flex: 1;
@@ -343,9 +345,6 @@ textarea {
     .about-content {
         flex-direction: column;
         text-align: center;
-    }
-    .about-image {
-        padding-bottom: 1.5rem;
     }
 }
 @media(max-width: 600px) {
