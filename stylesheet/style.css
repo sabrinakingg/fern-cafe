@@ -162,17 +162,14 @@ nav a {
     background-color: transparent;
     border: 2.5px solid white;
     border-radius: 50px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
 }
 .hero-btn:hover {
     cursor: pointer;
     border: 2.5px solid white;
     transition: .4s;
-    background-color:#ffffff38;
-    
-}
-.hero-btn  {
-    text-decoration: none;
-    color: rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0.288);
 }
 /* BOOTSTRAP CAROUSEL - END */
 /* About - START */
